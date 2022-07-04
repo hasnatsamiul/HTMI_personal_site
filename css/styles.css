@@ -2,6 +2,7 @@ body{
     text-align: center;
     
     margin: 0px;
+    background: scroll;
     
 }
 
@@ -11,6 +12,7 @@ body{
     background: linear-gradient(45deg, rgb(235, 131, 183), rgb(52, 221, 137));
     padding-top: 100px;
     padding-bottom: 0px;
+    height: 495px;
 
 }
 .anchor-button {
@@ -45,11 +47,16 @@ body{
     margin: 0px;
     padding: 0px;
     
+    
 }
 
 
 .bottom-container{
-    background-color: transparent;
+    background-color: #B7D3DF;
+    padding: 20px;
+    margin: 0px;
+
+    
 }
 .top-cloud{
     position: absolute;
@@ -76,16 +83,14 @@ h1{
 
 h3{
     
-    border-color: red;
     border-width: 20px ;
 }
-.h2{
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+
 h2{
     margin: 0px;
     font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 
@@ -138,6 +143,10 @@ p{
     font-weight: 700;
     
     display:inline-block;
+}
+hr{
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
 }
 
 
