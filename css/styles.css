@@ -2,18 +2,8 @@ body{
     text-align: center;
     
     margin: 0px;
-    background: scroll;
     
-}
-
-
-
-.top_container{
-    background: linear-gradient(45deg, rgb(235, 131, 183), rgb(52, 221, 137));
-    padding-top: 100px;
-    padding-bottom: 0px;
-    height: 495px;
-
+    
 }
 .anchor-button {
     text-decoration: none;
@@ -45,14 +35,31 @@ body{
 .middle-container{
     background-color: #F2D7D9;
     margin: 0px;
-    padding: 0px;
-    
-    
+    padding: 0px 0px 10px 0px;
 }
 
 
+
+.top_container{
+    background: linear-gradient(45deg, rgb(235, 131, 183), rgb(52, 221, 137));
+    padding-top: 100px;
+    padding-bottom: 0px;
+    height: 495px;
+
+}
+
+.experience-container{
+    background-color: #C9BBCF;
+    padding:0px;
+    height: 450px;
+   
+}
+
+
+
 .bottom-container{
-    background-color: #B7D3DF;
+    background-color: rgb(241, 248, 182);
+    
     padding: 20px;
     margin: 0px;
 
@@ -72,11 +79,14 @@ body{
     
     
 }
+.mountain{
+    height:329px;
+}
 h1{
     font-family: 'Sacramento', cursive;
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 50px;
+    font-size: 60px;
 
     
 }
@@ -98,6 +108,11 @@ p{
    
     padding: 0%;
     font-size: 20px;
+}
+h1 p span{
+    color: rgb(243, 130, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 .skills{
@@ -144,10 +159,50 @@ p{
     
     display:inline-block;
 }
-hr{
+.hr{
     margin-bottom: 0px;
     border-bottom-width: 0px;
+    
+} 
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
+.experience-area h2{
+    color: orange;
+    padding-top: 0px;
+}
 
-    
+.experience-area div{
+   
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+    box-shadow: 5px 7px 40px gray;
+    text-align: justify;
+    padding-right: 15px;
+    height: 350px;
+}
+#baby-web{
+    border-left: 5px solid rgb(236, 250, 48);
+    box-shadow: 5px 7px 40px gray;
+    text-align: justify;
+    padding-right: 15px;
+    height: 350px;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.footer p{
+    margin: 0px;
+}
